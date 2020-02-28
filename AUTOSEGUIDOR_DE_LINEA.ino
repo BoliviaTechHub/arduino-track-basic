@@ -2,6 +2,7 @@
  /*El auto avanza en zig zag,no sigue la linea NEGRA*/
   
 #include<QTRSensors.h>
+
 #define AIN1 3
 #define AIN2 4
 #define PWMA 5
@@ -12,9 +13,10 @@
 #define NUM_SAMPLES_PER_SENSOR  4  // 
 #define EMITTER_PIN             2
 #define LED 13
-float KP = 0.5;
-float KD = 1.0;
+float KP = 1.5;
+float KD = 1.5;
 float Ki = 0.006;
+/*p=0.18, Kd=4, Ki=0.001;*/
 int Velmax = 255;
 int error1 = 0;
 int error2 = 0;
@@ -119,7 +121,7 @@ void loop() {
   //Serial.println(); // uncomment this line if you are using raw values
   Serial.println(position); // comment this line out if you are using raw values
   
-  delay(250);
+  //delay(250);
   
   proporcional = ((int)position) - 2500;
   if (proporcional <= -Target) {
@@ -146,6 +148,6 @@ void loop() {
   else if (diferencial < - Velmax) diferencial = - Velmax;
   ( diferencial < 0) ?
   Motor(Velmax + diferencial, Velmax) : Motor(Velmax, Velmax - diferencial);
-  delay(250);
+  delay(1);
 }
 /*El auto avanza en zig zag se enciende y se apaga los motores uno despues del otro, no sigue la linea NEGRA*/
