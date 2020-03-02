@@ -1,0 +1,57 @@
+=======================================================================
+PRECIOS DE MATERIALES DE COMPONENTES ELCTRONICOS USADOS EN LOS LIBROS 
+-----------------------------------------------------------------------
+ ROBOTICA CON ARDUINO 
+ "TECHHOME"
+-----------------------------------------------------------------------
+Se compro los componetes electronicos en las Calles Colombia y Mexico
+-----------------------------------------------------------------------
+
+
+Arduino
+
+Protoboard
+Sensor ultrasónico 
+
+Leds         ======================> Bs 0.50 Unidad
+Cables Jumper 		=================> Bs 20 
+Potenciómetro
+
+Transistores 548
+
+Pulsadores
+
+Resistencia
+
+Foto resistencias
+
+Motores de corriente directa
+
+Servomotores
+
+Módulo l293d     ================> Bs 20
+Puente h
+
+Pila de 9 voltios
+
+Display de 7 segmentos ando y cátodo común
+
+Sensor mq3		==============>Bs 38
+Sensor sharp
+
+Sensor cny70
+
+Sensor tcrt500
+
+Módulo Bluetooth hc 05
+
+Ventilador
+
+Motor paso a paso unipolar
+
+Sensor tcs3200      ===============> Bs80  
+Sensor lm35		===============> Bs 15
+Sensor qtr 8rc		==============>Bs 70
+Módulo de relay
+
+NodeMCU esp8266       ==================> Bs260
